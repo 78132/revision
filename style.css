@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-image: url(background.jpg), linear-gradient(rgba(248, 24, 24, 0.5),rgba(9, 170, 116, 0.5));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    padding-top: 20px;
+}
+li {
+    margin-right: 10px;
+}
+li a:hover{
+    background-color: rgb(21, 124, 241);
+}
+h3{
+    font-family:monospace;
+    font-size: x-small;
+}
+
+#card:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+#contact{
+    position: relative;
+    top: 70px;
+}
+
